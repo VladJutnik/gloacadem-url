@@ -5,7 +5,7 @@ require_once("config/Database.php");
 $model = new Config();
 include "includes/header.php";
 
-$users = $model->set_user(); ?>
+$users = $model->get_user(); ?>
 <main class="container">
     <div class="row mt-5">
         <div class="col">
