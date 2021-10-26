@@ -11,7 +11,7 @@ class Config
         return self::$url . $url_custom;
     }
 
-    public function get_user()
+    public function set_user()
     {
         $db = new Database();
 
