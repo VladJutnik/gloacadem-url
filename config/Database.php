@@ -11,11 +11,11 @@ class Database extends mysqli
             $host = 'localhost';
             $passwd = 'Lampa6516';
         } else {
-            $host = '192.168.1.3';
+            $host = '192.168.1.333334';
             $passwd = '';
         }
         if ($dbname === '') {
-            $dbname = 'medic';
+            $dbname = 'custom_db';
         }
         if ($port === '') {
             $port = ini_get("mysqli.default_port");
