@@ -9,7 +9,7 @@ class Database extends mysqli
         $username = 'root';
         if (self::CONNECTION === 'local') {
             $host = 'localhost';
-            $passwd = 'Lampa6516';
+            $passwd = 'root';
         } else {
             $host = '192.168.1.333334';
             $passwd = '';
